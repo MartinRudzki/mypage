@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+File: ~Church/ChurchHome.html
+Edit by: Martin Rudzk, UMass Lowell, 91.461 GUI Programming 1
+Email: Martin_Rudzki@student.uml.edu
+CopyRight (c) 2015 by Martin Rudzki. You are free to use any of my code here.
+Description: Church website.
+Created: MR 09/18/2015
+-->
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Fixes spacing between "church_rainbow.jpg" and menu-->
+  <style>
+  img {
+    display: block;
+  }
+  </style>
+  <link rel="stylesheet" href="css/menu.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="script.js"></script>
+  <title>U Burlington</title>
+</head>
+<body>
+  <!--Top of page, church image.-->
+  <!--
+    IMG: church_rainbow.jpg 
+    Source: http://www.uccburlington.org/
+    IMG: ucc_logo.jpg
+    Source: http://uccstandrew.org/love-in-action/
+    Created: Martin_Rudzki@student.uml.edu
+     -->
+  <img src="img/church_rainbow.jpg" alt="church_rainbow" style="float: left; width: 15%; height:25%; margin-right: 1%; margin-bottom: 0.5em;">
+  <img src="img/ucc_logo.jpg" alt="ucc_logo" style="padding-top:11px; padding-bottom: 12px; width: 45%; height:45%; ">
+ 
+
+  <div id='cssmenu'>
+
+    <ul>
+      <!--HOME-->
+      <li><a href='#'><span>Home</span></a></li>
+      <!--I'M NEW-->
+      <li class='active has-sub'><a href='#'><span>I'm New</span></a>
+        <ul>
+          <li class='has-sub'><a href='#'><span>temp</span></a>
+            <ul>
+              <li><a href='#'><span>sub temp</span></a></li>
+              <li class='last'><a href='#'><span>Sub temp</span></a></li>
+            </ul>
+          </li>
+          <li class='has-sub'><a href='#'><span>temp</span></a>
+            <ul>
+              <li><a href='#'><span>Sub temp</span></a></li>
+              <li class='last'><a href='#'><span>Sub temp</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <!--CONNECT-->
+      <li class='active has-sub'><a href='#'><span>Connect</span></a>
+        <ul>
+          <li class='has-sub'><a href='#'><span>temp</span></a>
+            <ul>
+              <li><a href='#'><span>Sub temp</span></a></li>
+              <li class='last'><a href='#'><span>Sub temp</span></a></li>
+            </ul>
+          </li>
+          <li class='has-sub'><a href='#'><span>temp</span></a>
+            <ul>
+              <li><a href='#'><span>Sub temp</span></a></li>
+              <li class='last'><a href='#'><span>Sub temp</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <!--About-->
+      <li><a href='#'><span>About</span></a></li>
+      <!--Contact-->
+      <li class='last'><a href='#'><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <!--End of cssmenu-->
+</body>
+</html>
